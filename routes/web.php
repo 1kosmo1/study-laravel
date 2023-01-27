@@ -17,6 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/posts',function(){
-    echo "hello";
-});
+Route::get('/task',"TaskController@show");

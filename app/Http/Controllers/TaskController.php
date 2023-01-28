@@ -3,10 +3,12 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Task;
 
 class TaskController extends Controller
 {
     public function show(){
-        return "you see your task now";
+        $tasks = Task::all();
+        dd($tasks);
     }
 }

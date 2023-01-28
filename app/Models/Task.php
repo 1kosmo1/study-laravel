@@ -12,5 +12,5 @@ class Task extends Model
      * Массово присваиваемые атрибуты
      * @var array
      */
-    protected $fillable = ['name'];
+    protected $talbe = "tasks";
 }
